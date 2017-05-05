@@ -14,6 +14,7 @@
 		3FE085FA1EBBFADC00D70288 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE085F91EBBFADC00D70288 /* Images.xcassets */; };
 		3FE085FD1EBBFADC00D70288 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FE085FB1EBBFADC00D70288 /* LaunchScreen.xib */; };
 		3FE086091EBBFADC00D70288 /* MyfirstProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE086081EBBFADC00D70288 /* MyfirstProjectTests.swift */; };
+		3FE086131EBC094600D70288 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE086121EBC094600D70288 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		3FE086021EBBFADC00D70288 /* MyfirstProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyfirstProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE086071EBBFADC00D70288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FE086081EBBFADC00D70288 /* MyfirstProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyfirstProjectTests.swift; sourceTree = "<group>"; };
+		3FE086121EBC094600D70288 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				3FE085EF1EBBFADC00D70288 /* AppDelegate.swift */,
-				3FE085F41EBBFADC00D70288 /* ViewController.swift */,
 				3FE085F61EBBFADC00D70288 /* Main.storyboard */,
+				3FE085F41EBBFADC00D70288 /* ViewController.swift */,
+				3FE086121EBC094600D70288 /* SecondViewController.swift */,
 				3FE085F91EBBFADC00D70288 /* Images.xcassets */,
 				3FE085FB1EBBFADC00D70288 /* LaunchScreen.xib */,
 				3FE085F11EBBFADC00D70288 /* MyfirstProject.xcdatamodeld */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE086131EBC094600D70288 /* SecondViewController.swift in Sources */,
 				3FE085F51EBBFADC00D70288 /* ViewController.swift in Sources */,
 				3FE085F31EBBFADC00D70288 /* MyfirstProject.xcdatamodeld in Sources */,
 				3FE085F01EBBFADC00D70288 /* AppDelegate.swift in Sources */,
@@ -345,6 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyfirstProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,6 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyfirstProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -413,6 +419,7 @@
 				3FE0860E1EBBFADC00D70288 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FE0860F1EBBFADC00D70288 /* Build configuration list for PBXNativeTarget "MyfirstProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +428,7 @@
 				3FE086111EBBFADC00D70288 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
